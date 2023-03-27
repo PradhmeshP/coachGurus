@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://gigabyte5671.github.io/AutoType/dist/autotype.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    
+
+    <title>📖 Coach Gurus</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand myLogo" href="#">📖 Coach Gurus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item homeItem">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#curriculumDiv">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trainings.html">Trainings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ratings.html">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home">
+        <div class="intro">
+          <h1 class="im">Hi, I'm Pandiarajan <br> ‎ ‎ ‎ ‎ ‎ ‎  and I am a <br> <span class="autoType"></span></h1>
+        </div>
+      </section>
+
+      <section id="about">
+
+        <div class="row">
+          <div class="feature-box pmpTrainer col-lg-4" data-aos="fade-right">
+            <i class="fa-solid fa-bars-progress fa-4x icon barIcon"></i>
+            <h3 title="Visit Curriculum for more details">PMP Trainer</h3>
+            <p title="Visit Curriculum for more details">The process of managing programs mapped to business objectives that improve organizational performance.</p>
+          </div>
+      
+          <div class="feature-box scrumTrainer col-lg-4" data-aos="fade-left">
+            <i class="fa-solid fa-s fa-4x icon sIcon"></i>
+            <h3 title="Visit Curriculum for more details">Agile Scrum Trainer</h3>
+            <p title="Visit Curriculum for more details">Agile scrum methodology is a project management system that relies on incremental development.</p>
+          </div>
+        </div>
+    
+
+      </section>
+
+      <section id="curriculum">
+        <div id="curriculumDiv">
+          <h1 style="font-size: 3.7rem;" id="curriculumH1" class="curriculumH1" data-aos="fade-up">Click on Image for the respective Curriculum</h1>
+        <div class="sCurriculum">
+          <a href="scrumCurriculum.html"><img class="scrumImg" id="scrumImg" src="images/Scrum.png" alt="Scrum-Img"></a>
+        </div>
+        <div class="pmpCurriculum">
+          <a href="pmpcurriculum.html"><img class="pmpImg" src="images/pmp.png" alt="PMP-Img"></a>
+        </div>
+        </div>
+      </section>
+
+      <section id="contact" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <h1>Contact @ 70107 15570 (or)</h1> <br> <br>
+        <form action="mailto:tpandiarajan0906@gmail.com" method="post" enctype="text/plain">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1 name" class="form-label">Your Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" autocomplete="off" name="Your Email ">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Your Message Here</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" name="Your Message "></textarea>
+          </div>
+          <button id="myButton" type="submit" class="btn btn-outline-primary">Send</button>
+        </form>
+      </section>
+
+      <div id="cookie-notice" class="hidden">
+        <p>This website uses cookies to ensure you get the best experience on our website. ‎ ‎ <button class="btn btn-warning" id="cookie-accept">Accept</button></p>
+      </div>
+      
+
+      <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+      var typed = new Typed('.autoType', {
+      strings: ['‎ ‎ ‎ ‎ ‎  PMP Trainer', 'Agile Scrum Trainer'],
+      typeSpeed: 40,
+      loop: true
+    });
+
+    const tiltDiv = document.querySelector('.curriculumDivImg');
+
+  // Apply the Tilt.js effect
+    VanillaTilt.init(tiltDiv, {
+      max: 25,
+      speed: 400,
+      glare: true,
+      'max-glare': 0.5
+    });
+
+    // Check if the cookie exists
+function checkCookie() {
+  var cookie = getCookie("cookie-notice");
+  if (cookie != "") {
+    // Cookie exists, do nothing
+  } else {
+    // Cookie does not exist, show the notice
+    document.getElementById("cookie-notice").classList.remove("hidden");
+  }
+}
+
+// Create the cookie
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires="+d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+// Get the cookie value
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+// Close the notice and set the cookie
+document.getElementById("cookie-accept").addEventListener("click", function() {
+  document.getElementById("cookie-notice").classList.add("hidden");
+  setCookie("cookie-notice", "accepted", 365);
+});
+
+// Run the check when the page loads
+window.onload = checkCookie;
+
+    </script>
+</body>
+</html>
